@@ -1,20 +1,13 @@
-#import stats_manager
 from tracemalloc import start
-#import level_select
 from base64 import decode
 from cgitb import text
 from email.mime import audio
 from tkinter import END
-#from telegram import ChatAction, Update
-#from telegram.ext import Updater, CommandHandler, CallbackContext 
-#import requests
 from telegram import *
 from telegram.ext import *
 from requests import *
 import requests
 
-token_test = "5700589533:AAHQDSdt0hPFGlx6laOD-_1wcysKacI42ik"
-token = "5567751406:AAETq81wEWNsEtIhjStsb2UOzqGfJoRXI-E" 
 updater = Updater(token, use_context=True) 
 dispatcher = updater.dispatcher 
  
